@@ -11,7 +11,7 @@
 	<p>{personal.intro}</p>
 	<Item.Root class="w-80 justify-self-center text-justify" variant="outline">
 		{#snippet child({ props })}
-			<a href="/projects" {...props}>
+			<a href="/terminal" {...props}>
 				<Item.Content>
 					<Item.Title>Terminal</Item.Title>
 					<Item.Description>Some fun terminal apps await!</Item.Description>
