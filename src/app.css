@@ -37,6 +37,7 @@
   --sidebar-accent-foreground: oklch(0.208 0.042 265.755);
   --sidebar-border: oklch(0.929 0.013 255.508);
   --sidebar-ring: oklch(0.704 0.04 256.788);
+	--gray: oklch(0.5544 0.0407 257.42);
 }
 
 .dark {
@@ -118,4 +119,15 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: var(--black);
+  font-family: 'Work Sans', sans-serif;
+}
+
+p {
+  font-family: 'Work Sans', sans-serif;
 }

@@ -8,7 +8,17 @@
 <div class="grid text-center">
 	<h1>Hi, I'm Spencer Smith</h1>
 	<span>{personal.role} from {personal.location}</span>
-	<p>{personal.intro}</p>
+	<p>
+		Welcome to my portfolio website! I made this site using Sveltekit for the first time and have
+		taken some insipration from some other super talented folks around the internet. Here, you can
+		learn a little more <a href="/about">about</a> me, check out some of my
+		<a href="/projects">projects</a>
+		or send me a <a href="/contact">shout</a> with whatever you are thinking about!
+	</p>
+	<p>
+		Don't forget to click the button below to hack around on a psuedo terminal with some of my
+		favorite TUI's I've built!
+	</p>
 	<Item.Root class="w-80 justify-self-center text-justify" variant="outline">
 		{#snippet child({ props })}
 			<a href="/terminal" {...props}>
@@ -23,21 +33,6 @@
 </div>
 
 <style>
-	:root {
-		--white: #f8f9fa;
-		--black: #020617;
-		--slate-black: #1e293b;
-		--gray: #64748b;
-		--light-gray: rgb(203 213 225);
-		--dark-grayish-blue: #334155;
-		--accent-color: #007bff;
-	}
-	h1 {
-		margin: 0;
-		font-size: 2.5em;
-		color: var(--black);
-		font-family: 'Work Sans', sans-serif;
-	}
 	span {
 		font-size: 1.5em;
 		color: var(--gray);
@@ -45,7 +40,6 @@
 		margin-top: 10px;
 	}
 	p {
-		font-family: 'Work Sans', sans-serif;
 		margin-bottom: 2rem;
 	}
 </style>

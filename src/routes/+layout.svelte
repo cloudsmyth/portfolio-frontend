@@ -6,25 +6,19 @@
 </script>
 
 <div class="layout grid min-h-screen grid-rows-[auto_1fr_auto]">
-	<div class="header">
+	<div class=" grid w-[70%] place-self-center">
 		<Header headerItems={DATA.NAVLIST} />
 	</div>
 	<main class="grid">
 		<slot />
 	</main>
-	<div class="footer">
+	<div class="grid w-full place-self-center">
 		<Footer job={DATA.PERSONAL} />
 	</div>
 </div>
 
 <style>
 	.layout {
-		width: 70%;
 		margin: 0 auto;
-	}
-	@media (max-width: 768px) {
-		.layout {
-			width: 90%;
-		}
 	}
 </style>

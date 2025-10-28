@@ -222,9 +222,9 @@
 	}
 </script>
 
-<div class="flex h-screen flex-col">
+<div class="grid w-[80%] grid-rows-[auto_1fr] place-self-center">
 	<div class="border-b bg-muted/40 px-4 py-3">
-		<div class="flex items-center justify-between">
+		<div class="grid grid-cols-[1fr_auto] items-center gap-4">
 			<div class="flex items-center gap-3">
 				<div class="flex items-center gap-2">
 					<Circle
@@ -269,7 +269,7 @@
 		</div>
 	</div>
 
-	<div class="flex-1 overflow-hidden bg-[#1e1e1e]">
+	<div class="min-h-[700px] overflow-hidden bg-[#1e1e1e]">
 		<div bind:this={terminalElement} class="h-full w-full p-4"></div>
 	</div>
 </div>
