@@ -1,5 +1,3 @@
-import { Description } from '$lib/components/ui/alert';
-
 const PERSONAL = {
 	name: 'Spencer Smith',
 	first_name: 'Spencer',
@@ -90,36 +88,11 @@ const NAVLIST = [
 	}
 ];
 
-const PROJECTS = [
-	{
-		title: 'Awesome Project',
-		link: 'https://github.com/cloudsmyth',
-		description: 'Shorteness desc',
-		content: 'LONGER BETTER CONTENT FOR THE CONTENT SECTION YOU KNOW WHAT I MEAN?????',
-		tech: ['Golang', 'React', 'Java']
-	},
-	{
-		title: 'Great Project',
-		link: 'https://github.com/cloudsmyth',
-		description: 'Shorteness desc',
-		content: 'LONGER BETTER CONTENT FOR THE CONTENT SECTION YOU KNOW WHAT I MEAN?????',
-		tech: ['Golang', 'React', 'Java']
-	},
-	{
-		title: 'Fantastic Project',
-		link: 'https://github.com/cloudsmyth',
-		description: 'Shorteness desc',
-		content: 'LONGER BETTER CONTENT FOR THE CONTENT SECTION YOU KNOW WHAT I MEAN?????',
-		tech: ['Golang', 'React', 'Java']
-	}
-];
-
 const DATA = {
 	ABOUT,
 	CONTACT,
 	NAVLIST,
 	PERSONAL,
-	PROJECTS,
 	SKILLS
 };
 
