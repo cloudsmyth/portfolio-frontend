@@ -4,7 +4,7 @@
 	export let data: PageData;
 </script>
 
-<article class="mx-auto grid w-[90%]">
+<article class="mx-auto grid w-[70%]">
 	<header>
 		<h1 id="title">{data.metadata.title}</h1>
 		<p id="description">{data.metadata.description}</p>

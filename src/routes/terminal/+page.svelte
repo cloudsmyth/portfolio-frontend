@@ -237,7 +237,7 @@
 				<Separator orientation="vertical" class="h-6" />
 				<div class="flex items-center gap-2">
 					<TerminalIcon class="h-4 w-4 text-muted-foreground" />
-					<h2 class="text-base font-semibold">Terminal (Debug Mode)</h2>
+					<h2 class="text-base font-semibold">Terminal</h2>
 				</div>
 			</div>
 			<div class="flex items-center gap-1">
