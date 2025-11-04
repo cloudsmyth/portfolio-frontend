@@ -1,7 +1,12 @@
 {
-	"nodeModulesDir": "auto",
-	"compilerOptions": {
-		"allowImportingTsExtensions": true,
-		"noEmit": true
-	}
+  "nodeModulesDir": "auto",
+  "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "noEmit": true
+  },
+  "tasks": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
 }
