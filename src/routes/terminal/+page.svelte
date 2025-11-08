@@ -26,7 +26,7 @@
 	let resizeTimeout: ReturnType<typeof setTimeout>;
 	let lastKnownSize = { rows: 0, cols: 0 };
 
-	const WS_URL = import.meta.env.WS_API_URL;
+	const WS_URL = import.meta.env.WS_API_URL + '/ws';
 
 	onMount(() => {
 		initTerminal();
@@ -223,7 +223,7 @@
 </script>
 
 <div class="grid w-[80%] grid-rows-[auto_1fr] place-self-center">
-	<div class="border-b bg-muted/40 px-4 py-3">
+	<div class="bg-muted/40 border-b px-4 py-3">
 		<div class="grid grid-cols-[1fr_auto] items-center gap-4">
 			<div class="flex items-center gap-3">
 				<div class="flex items-center gap-2">
@@ -236,7 +236,7 @@
 				</div>
 				<Separator orientation="vertical" class="h-6" />
 				<div class="flex items-center gap-2">
-					<TerminalIcon class="h-4 w-4 text-muted-foreground" />
+					<TerminalIcon class="text-muted-foreground h-4 w-4" />
 					<h2 class="text-base font-semibold">Terminal</h2>
 				</div>
 			</div>
