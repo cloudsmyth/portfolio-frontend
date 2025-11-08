@@ -26,7 +26,7 @@
 	let resizeTimeout: ReturnType<typeof setTimeout>;
 	let lastKnownSize = { rows: 0, cols: 0 };
 
-	const WS_URL = 'ws://localhost:8080/ws';
+	const WS_URL = import.meta.env.WS_API_URL;
 
 	onMount(() => {
 		initTerminal();
