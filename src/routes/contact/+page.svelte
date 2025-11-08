@@ -5,6 +5,7 @@
 	import { Textarea } from '$lib/components/ui/textarea';
 	import { toast } from 'svelte-sonner';
 	import { Mail, Send, User, MessageSquare } from 'lucide-svelte';
+	import { PUBLIC_API_URL } from '$env/static/public';
 
 	type FormData = {
 		name: string;
@@ -33,7 +34,7 @@
 		isSubmitting = true;
 
 		try {
-			const response = await fetch(`${import.meta.env.PUBLIC_API_URL}/api/contact`, {
+			const response = await fetch(PUBLIC_API_URL + '/api/contact', {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json'
