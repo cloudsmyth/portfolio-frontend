@@ -4,7 +4,7 @@ const PERSONAL = {
 	last_name: 'Smith',
 	role: 'Software Engineer | Full Stack Developer',
 	intro:
-		'Welcome to my protfolio website! I made this site using Sveltekit for the first time and have taken some insipration from some other super ' +
+		'Welcome to my protfolio website! I made this site using Sveltekit and have taken insipration from some other super ' +
 		'talented folks around the internet. Here, you can learn a little more about me ...' +
 		'Click on the button below to check some TUIs I have built right from your web browser!',
 	location: 'Seattle, Washington'

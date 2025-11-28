@@ -9,9 +9,11 @@
 	<h1>Hi, I'm Spencer Smith</h1>
 	<span>{personal.role} from {personal.location}</span>
 	<p>
-		Welcome to my portfolio website! I made this site using Sveltekit for the first time and have
-		taken some insipration from some other super talented folks around the internet. Here, you can
-		learn a little more <a href="/about">about</a> me, check out some of my
+		Welcome to my portfolio website! I made this site using Sveltekit and have taken insipration
+		other super talented folks around the internet. Here, you can learn a little more <a
+			href="/about">about</a
+		>
+		me, check out some of my
 		<a href="/projects">projects</a>
 		or send me a <a href="/contact">shout</a> with whatever you are thinking about!
 	</p>

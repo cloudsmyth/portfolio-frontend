@@ -16,7 +16,7 @@ Magic: The Gathering, with over 25,000 unique cards, presents a significant chal
 
 Card Search Go leverages the Scryfall API to provide instant access to MTG card data through a lightweight command-line interface. Built with Go, the application offers fast performance, cross-platform compatibility, and seamless integration into terminal-based workflows.
 
-**Repository**: https://github.com/cloudsmyth/card-search-go
+**Repository**: https://github.com/wave-smith/card-search-go
 
 ### Key Features
 
@@ -120,6 +120,6 @@ The project demonstrates that modern command-line tools remain relevant and valu
 
 ## Project Links
 
-- **GitHub Repository**: https://github.com/cloudsmyth/card-search-go
+- **GitHub Repository**: https://github.com/wave-smith/card-search-go
 - **Scryfall API Documentation**: https://scryfall.com/docs/api
 - **Magic: The Gathering**: https://magic.wizards.com
